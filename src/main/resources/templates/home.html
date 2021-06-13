@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <!--    Font Awesome-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css" integrity="undefined" crossorigin="anonymous">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" type="text/css" />
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+<div class="container">
+
+
+    <main>
+        <div class="container py-4">
+            <header class="pb-3 mb-4 border-bottom">
+                <a href="/api/home" class="d-flex align-items-center text-dark text-decoration-none">
+                    <i class="fa fa-solid fa-code" style="font-size:48px"></i>&nbsp;&nbsp;
+                    <span class="fs-4" style="color:purple;">My Portfolio Website!!</span>
+                </a>
+            </header>
+
+            <!-- Breadcrumb -->
+            <nav aria-label="breadcrumb" class="main-breadcrumb">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="/api/home">Home</a></li>
+                    <li class="breadcrumb-item"><a href="/api/profile">Profile</a></li>
+                    <li class="breadcrumb-item"><a href="/api/about">About</a></li>
+                </ol>
+            </nav>
+
+            <div class="p-5 mb-4 bg-light rounded-3">
+                <div class="container-fluid py-5">
+                    <h1 class="display-5 fw-bold" style="color:purple;">Who Am I ??</h1>
+                    <p class="col-md-8 fs-4">I call myself a “fullstack developer”, but really I’m a backend
+                        Java developer as well as Node js(Express) developer,who also likes to write frontend code.
+                        I am big React Enthusiast !!</p>
+                    <a href="/api/profile" class="btn btn-primary btn-lg" type="button">Profile</a>
+                </div>
+            </div>
+
+            <div class="row align-items-md-stretch">
+                <div class="col-md-6">
+                    <div class="h-100 p-5 text-white bg-dark rounded-3">
+                        <h2>Whats My Current Dream ?</h2>
+                        <p>Wanna get placed in a good company where i can showcase my skills in an effective way and that which helps me to explore new tech stacks as I am very fascinated about how the organization deals with implementing things</p>
+<!--                        <button class="btn btn-outline-light" type="button">Example button</button>-->
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="h-100 p-5 bg-light border rounded-3">
+                        <h2 class="mb-2">What I Believe !!</h2>
+                        <q>I Strongly Believe in Consistency , Be Consistent and the Success Automatically follows you </q>
+<!--                        <button class="btn btn-outline-secondary" type="button">Example button</button>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</div>
+
+<div class="container py-5">
+    <div class="row mb-4">
+        <div class="col-lg-5">
+            <h2 style="color : purple;" class="display-6 mx-auto font-weight-light"><strong>My Simple Projects in Free Time !!</strong></h2>
+            <p class="font-italic text-muted">These are the few mini Projects which showcases my knowledge.</p>
+        </div>
+    </div>
+    <hr class="text-primary" />
+    <div class="row text-center">
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://img.icons8.com/bubbles/50/000000/code.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">ContextAPI Todo App</h5><span class="small text-uppercase text-muted">Tech : React</span>
+                <ul class="social mb-0 list-inline mt-3">
+                    <a href="https://ssr-context-api-todo-app.netlify.app/" target="_blank" class="btn btn-primary">Preview</a>
+                    <li class="list-inline-item"><a href="https://github.com/surendra916/netlify-CI-CD-todo-app" target="_blank" class="social-link"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End-->
+
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://img.icons8.com/nolan/64/code.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">React Chakra UI Todo App</h5><span class="small text-uppercase text-muted">Manually Deployed!</span>
+                <ul class="social mb-0 list-inline mt-3">
+                    <a href="https://surendra-todo.netlify.app" target="_blank" class="btn btn-primary">Preview</a>
+                    <li class="list-inline-item"><a href="#=This is a Manually Deployed Project" target="_blank" class="social-link"><i class="fa fa-github"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End-->
+
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://img.icons8.com/wired/64/000000/code.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">Tom Sunderland</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                <ul class="social mb-0 list-inline mt-3">
+                    <a href="/api/images" target="_blank" class="btn btn-primary">Preview</a>
+                    <!--                    <li class="list-inline-item"><a href="https://github.com/surendra916/netlify-CI-CD-todo-app" target="_blank" class="social-link"><i class="fa fa-github"></i></a></li>-->
+                </ul>
+            </div>
+        </div>
+        <!-- End-->
+
+        <!-- Team item-->
+        <div class="col-xl-3 col-sm-6 mb-5">
+            <div class="bg-white rounded shadow-sm py-5 px-4"><img src="https://img.icons8.com/dusk/64/000000/code.png" alt="" width="100" class="img-fluid rounded-circle mb-3 img-thumbnail shadow-sm">
+                <h5 class="mb-0">John Tarly</h5><span class="small text-uppercase text-muted">CEO - Founder</span>
+                <ul class="social mb-0 list-inline mt-3">
+                    <a href="https://ssr-context-api-todo-app.netlify.app/" target="_blank" class="btn btn-primary">Preview</a>
+                    <!--                    <li class="list-inline-item"><a href="https://github.com/surendra916/netlify-CI-CD-todo-app" target="_blank" class="social-link"><i class="fa fa-github"></i></a></li>-->
+                </ul>
+            </div>
+        </div>
+        <!-- End-->
+
+    </div>
+    <hr class="text-primary">
+    <div class="container">
+
+<!--        Technologies-->
+        <div class="container px-4 py-5" id="featured-3">
+
+
+            <div class="text-lg display-5" style="font-weight: bold; color:purple;">
+                Technologies !!
+            </div>
+
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+                <div class="feature col border border-info p-2">
+                    <div class="feature-icon bg-gradient">
+                        <img src="data:image/png;base64,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"/>
+                    </div>
+                    <h2>Front-End</h2>
+                    <p>
+                         <ul style="list-style-type=none;">
+                            <li style="list-style-type:none;text-decoration:none"> <strong>Html,css, Javascript ,React.js</strong></li>
+                            <li style="list-style-type:none;text-decoration:none"><strong>Basics of Angular Framework</strong></li>
+                            <li style="list-style-type:none;text-decoration:none"><strong>Stacks: MERN , Spring boot React </strong></li>
+                        </ul>
+                    </p>
+                </div>
+                <div class="feature col  border border-info p-2">
+                    <div class="feature-icon bg-gradient">
+                        <img src="https://img.icons8.com/nolan/64/backend-development.png"/>
+                    </div>
+                    <h2>Back-End</h2>
+                    <p>
+                    <ul style="list-style-type=none;">
+                        <li style="list-style-type:none;text-decoration:none"> <strong>Spring MVC(Thymeleaf), Spring boot Web services</strong></li>
+                        <li style="list-style-type:none;text-decoration:none"><strong>Spring boot Microservices</strong></li>
+                        <li style="list-style-type:none;text-decoration:none"><strong>Express js a Node js Framework</strong></li>
+                    </ul>
+                    </p>
+                </div>
+                <div class="feature col  border border-info p-2">
+                    <div class="feature-icon bg-gradient">
+                        <img src="https://img.icons8.com/clouds/100/000000/database.png"/>
+                    </div>
+                    <h2>Databases</h2>
+                    <p style="float:left">
+                    <ul style="list-style-type=none;">
+                        <li style="list-style-type:none;text-decoration:none"> Relational/SQL &nbsp;<strong>Sql, Postgresql</strong></li>
+                        <li style="list-style-type:none;text-decoration:none">NoSql DB's &nbsp;<strong>MongoDB(using Mongoose ODM)</strong></li>
+                    </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer style="color: teal; font-weight:bold;" class="pt-3 mx-auto text-center mt-4 text-muted border-top">
+        My Portfolio Website© 2021
+    </footer>
+</div>
+
+</body>
+</html>
